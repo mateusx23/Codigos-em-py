@@ -1,0 +1,5 @@
+v = float(input("1"))
+
+res = (4/2)+(2/4)
+
+print(res)

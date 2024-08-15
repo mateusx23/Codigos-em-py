@@ -1,0 +1,13 @@
+votos = int(input("Qual a quantidade de votos"))
+
+if votos >= 0 and votos  <= 1:
+    print("Votos bracos")
+    
+elif votos >= 5 and votos <= 7:
+    print("votos nulos ")
+    
+elif votos >= 10 and votos <= 20:
+    print("votos valido ")
+
+else:
+    print("votos invalidos")

@@ -1,0 +1,8 @@
+ano1 = int(input("Informe o ano do nascimento da pessoa: "))
+
+ano = int(input("Informe o ano atual: "))
+
+idade = (ano1 - ano)
+
+print("A idade da pessoa e?",idade)
+

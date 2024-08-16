@@ -1,13 +1,16 @@
-votos = int(input("Qual a quantidade de votos"))
+votos_nulos = int(input("Qual o total de votos nulos? "))
 
-if votos >= 0 and votos  <= 1:
-    print("Votos bracos")
-    
-elif votos >= 5 and votos <= 7:
-    print("votos nulos ")
-    
-elif votos >= 10 and votos <= 20:
-    print("votos valido ")
+votos_validos = int(input("Qual ao total de votos validos? ")) #variaveis 
 
-else:
-    print("votos invalidos")
+votos_brancos = int(input("Qual o total de votos brancos? "))
+
+totalDeVotos = votos_nulos + votos_validos + votos_brancos
+
+porcentagemValidos = (votos_validos / totalDeVotos ) * 100
+print(porcentagemValidos)
+
+porcentagemNulos = ( votos_nulos / totalDeVotos ) * 100 # calculo
+print(porcentagemNulos)
+
+porcentagemBrancos = (votos_brancos / totalDeVotos ) * 100
+print(porcentagemBrancos)

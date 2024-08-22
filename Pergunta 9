@@ -1,0 +1,13 @@
+salario_atual = float(input("Qual o salario atual ?"))
+
+salario_mensal = float(input("Qual o salario mensal ?"))
+
+funcionario = float(input("Qual o reajuste do salario do funcionario?"))
+
+reajusteMensal = (salario_atual * funcionario) / 100
+print(reajusteMensal)
+
+reajuste = (salario_atual * salario_mensal) / 100
+print("Qual o novo salario do funcionario",reajuste)
+
+

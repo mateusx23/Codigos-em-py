@@ -1,0 +1,17 @@
+Ferrari = float(input("Qual o valor de  custo de fabrica da Ferrari?"))
+
+imposto = float(input("O valor em imposto?"))
+
+toyota = float(input("Qual o valor de custo de fabrica da toyota?"))
+
+porcentual = float(input("Qual o valor do porcentual?"))
+
+consumidor = (Ferrari * 45 ) / 100
+print("O custo final do consumidor!",consumidor)
+imposto = (imposto * 28) / 100
+print("Quanto gastei em imposto!", imposto)
+
+carro = (toyota * 45 ) / 100
+print("O custo final do consumidor!",carro)
+porcentualCarro = (porcentual * 28 ) / 100
+print("O valor do porcentual do carro!",porcentualCarro)

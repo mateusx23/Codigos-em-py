@@ -1,8 +1,10 @@
-ano1 = int(input("Informe o ano do nascimento da pessoa: "))
+ano = int(input("Digite o ano que voce deseja chegar?"))
 
-ano = int(input("Informe o ano atual: "))
+mes = int(input("Digite o mes do ano atual?"))
 
-idade = (ano1 - ano)
+dias = int(input("Digite o dia do mes atual?"))
 
-print("A idade da pessoa e?",idade)
 
+atual = (ano * mes * dias)
+
+print("A idade total em dias é:",atual)

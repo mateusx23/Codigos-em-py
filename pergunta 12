@@ -1,0 +1,9 @@
+aluno_nota1 = int(input("Informe qual a nota do aluno?"))
+
+aluno_nota2 = int(input("Informe qual a nota do aluno2"))
+
+aluno_nota3 = int(input("Informe qual a nota do aluno3"))
+
+nota = (aluno_nota1 * 2 + aluno_nota2 * 3 + aluno_nota3 * 5) / 10
+
+print("Informe as notas dos alunos",nota)
